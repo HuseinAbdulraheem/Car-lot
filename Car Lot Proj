@@ -1,0 +1,15 @@
+print("Welcome to our cars lot")
+
+print("what car brand do you like?")
+
+options = ("Bmw", "Mercedes", "Audi", "Porsche")
+
+car_option = input("what car brand are you looking for?: ")
+
+
+if car_option in options:
+    
+    print("Good choice, we have it!")
+     
+else: 
+    print("Sorry we do not have that car brand currently.")
